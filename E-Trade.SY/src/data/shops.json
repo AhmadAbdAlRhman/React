@@ -1,0 +1,630 @@
+{
+  "stores": [
+    {
+      "id": "1",
+      "StoreName": "Shop1",
+      "location": "123 Main St"
+    },
+    {
+      "id": "2",
+      "StoreName": "Shop2",
+      "quantity": 5,
+      "location": "456 Elm St"
+    },
+    {
+      "id": "3",
+      "StoreName": "Shop3",
+      "location": "123 Main St"
+    },
+    {
+      "id": "4",
+      "StoreName": "Shop4",
+      "location": "123 Main St"
+    },
+    {
+      "id": "5",
+      "StoreName": "Shop5",
+      "location": "123 Main St"
+    },
+    {
+      "id": "6",
+      "StoreName": "Shop6",
+      "location": "123 Main St"
+    },
+    {
+      "id": "7",
+      "StoreName": "Shop7",
+      "location": "123 Main St"
+    },
+    {
+      "StoreName": "404s",
+      "storeKind": "Grocerry",
+      "sellerEmail": "ii8538098@gmail.com",
+      "password": "12345678",
+      "sellerName": "ibrahim ibrahim",
+      "sellerPhone": "963986622942",
+      "id": "8"
+    }
+  ],
+  "store": [
+    {
+      "id": "1",
+      "StoreName": "Shop1",
+      "pro": [
+        {
+          "name": "Item1",
+          "StoreName": "Shop1",
+          "StoreId": 1,
+          "price": 10,
+          "avg": "2.8",
+          "quantity": 5,
+          "photo_data": "https://via.placeholder.com/150",
+          "optionalImages": [
+            "https://via.placeholder.com/170",
+            "https://via.placeholder.com/120",
+            "https://via.placeholder.com/130",
+            "https://via.placeholder.com/160"
+          ]
+        },
+        {
+          "name": "Item2",
+          "StoreName": "Shop1",
+          "StoreId": 1,
+          "price": 20,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "StoreName": "Shop2",
+      "pro": [
+        {
+          "name": "Item3",
+          "StoreName": "Shop2",
+          "StoreId": 2,
+          "price": 30,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item4",
+          "StoreName": "Shop2",
+          "StoreId": 2,
+          "price": 40,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "StoreName": "Shop3",
+      "pro": [
+        {
+          "name": "Item5",
+          "StoreName": "Shop3",
+          "StoreId": 3,
+          "price": 50,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item6",
+          "StoreName": "Shop3",
+          "StoreId": 3,
+          "price": 70,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item2",
+          "StoreName": "Shop3",
+          "StoreId": 3,
+          "price": 20,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item2",
+          "StoreName": "Shop3",
+          "StoreId": 3,
+          "price": 20,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item2",
+          "StoreName": "Shop3",
+          "StoreId": 3,
+          "price": 20,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item2",
+          "StoreName": "Shop3",
+          "StoreId": 3,
+          "price": 20,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "StoreName": "Shop4",
+      "pro": [
+        {
+          "name": "Item8",
+          "StoreName": "Shop4",
+          "StoreId": 4,
+          "price": 80,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item9",
+          "StoreName": "Shop4",
+          "StoreId": 4,
+          "price": 90,
+          "quantity": 5,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "StoreName": "Shop5",
+      "pro": [
+        {
+          "name": "Item1 sun glasses",
+          "StoreName": "Shop5",
+          "StoreId": 5,
+          "quantity": 25,
+          "price": 10,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item2",
+          "StoreName": "Shop5",
+          "StoreId": 5,
+          "quantity": 30,
+          "price": 20,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item3",
+          "StoreName": "Shop5",
+          "StoreId": 5,
+          "quantity": 39,
+          "price": 30,
+          "avg": "2.8",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item4",
+          "StoreName": "Shop5",
+          "StoreId": 5,
+          "quantity": 5,
+          "price": 40,
+          "avg": "1.96",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item5",
+          "StoreName": "Shop5",
+          "StoreId": 5,
+          "quantity": 5,
+          "price": 50,
+          "avg": "3.2",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item6",
+          "StoreName": "Shop5",
+          "StoreId": 5,
+          "quantity": 5,
+          "price": 60,
+          "avg": "4.9",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item8",
+          "StoreName": "Shop5",
+          "StoreId": 5,
+          "quantity": 5,
+          "price": 80,
+          "avg": "2.25",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item9",
+          "StoreName": "Shop5",
+          "StoreId": 5,
+          "quantity": 100,
+          "price": 90,
+          "avg": "3.9",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item10",
+          "StoreName": "Shop5",
+          "StoreId": 5,
+          "quantity": 5,
+          "price": 100,
+          "avg": "4.2",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item11",
+          "StoreName": "Shop5",
+          "StoreId": 5,
+          "quantity": 5,
+          "price": 110,
+          "avg": "4.8",
+          "photo_data": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "StoreName": "Shop6",
+      "pro": [
+        {
+          "name": "Item12",
+          "StoreName": "Shop6",
+          "StoreId": 6,
+          "quantity": 5,
+          "price": 120,
+          "avg": "3.9",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item13",
+          "StoreName": "Shop6",
+          "StoreId": 6,
+          "quantity": 5,
+          "price": 130,
+          "avg": "1.24",
+          "photo_data": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "StoreName": "Shop7",
+      "pro": [
+        {
+          "name": "Item14",
+          "StoreName": "Shop7",
+          "StoreId": 7,
+          "quantity": 5,
+          "price": 140,
+          "avg": "2.2",
+          "photo_data": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Item5",
+          "StoreName": "Shop7",
+          "StoreId": 7,
+          "quantity": 5,
+          "price": 150,
+          "avg": "3.8",
+          "photo_data": "https://via.placeholder.com/150"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "firstName": "hello",
+      "lastName": "hello",
+      "email": "hello@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "firstName": "ibrahim",
+      "lastName": "ibrahim",
+      "email": "ii8538098@gmail.com",
+      "password": "12345678",
+      "id": "bddczca"
+    },
+    {
+      "id": "698d",
+      "email": "ii8538098@gmail.com",
+      "password": "sadsadsad"
+    },
+    {
+      "id": "329f",
+      "email": "ii8538098@gmail.com",
+      "password": "12345678"
+    }
+  ],
+  "cart": [
+    {
+      "id": "704e",
+      "name": "Item2",
+      "price": 20,
+      "StoreId": 1,
+      "quantity": 1
+    }
+  ],
+  "product": [
+    {
+      "name": "Item1",
+      "StoreName": "Shop1",
+      "price": 10,
+      "avg": "2.8",
+      "quantity": 5,
+      "photo_data": "https://via.placeholder.com/150",
+      "StoreId": 1,
+      "id": "8342"
+    },
+    {
+      "name": "Item2",
+      "StoreName": "Shop1",
+      "StoreId": 1,
+      "price": 20,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "9714"
+    },
+    {
+      "name": "Item3",
+      "StoreName": "Shop2",
+      "StoreId": 2,
+      "price": 30,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "dfd8"
+    },
+    {
+      "name": "Item4",
+      "StoreName": "Shop2",
+      "StoreId": 2,
+      "price": 40,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "f2ec"
+    },
+    {
+      "name": "Item5",
+      "StoreName": "Shop3",
+      "StoreId": 3,
+      "price": 50,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "a73e"
+    },
+    {
+      "name": "Item6",
+      "StoreName": "Shop3",
+      "StoreId": 3,
+      "price": 70,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "6cfb"
+    },
+    {
+      "name": "Item2",
+      "StoreName": "Shop3",
+      "StoreId": 3,
+      "price": 20,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "7ebc"
+    },
+    {
+      "name": "Item2",
+      "StoreName": "Shop3",
+      "StoreId": 3,
+      "price": 20,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "f45f"
+    },
+    {
+      "name": "Item2",
+      "StoreName": "Shop3",
+      "StoreId": 3,
+      "price": 20,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "0deb"
+    },
+    {
+      "name": "Item2",
+      "StoreName": "Shop3",
+      "StoreId": 3,
+      "price": 20,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "5299"
+    },
+    {
+      "name": "Item8",
+      "StoreName": "Shop4",
+      "StoreId": 4,
+      "price": 80,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "80cb"
+    },
+    {
+      "name": "Item9",
+      "StoreName": "Shop4",
+      "StoreId": 4,
+      "price": 90,
+      "quantity": 5,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "670f"
+    },
+    {
+      "name": "Item1 sun glasses",
+      "StoreName": "Shop5",
+      "StoreId": 5,
+      "quantity": 25,
+      "price": 10,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "3ee0"
+    },
+    {
+      "name": "Item2",
+      "StoreName": "Shop5",
+      "StoreId": 5,
+      "quantity": 30,
+      "price": 20,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "48e5"
+    },
+    {
+      "name": "Item3",
+      "StoreName": "Shop5",
+      "StoreId": 5,
+      "quantity": 39,
+      "price": 30,
+      "avg": "2.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "ab5e"
+    },
+    {
+      "name": "Item4",
+      "StoreName": "Shop5",
+      "StoreId": 5,
+      "quantity": 5,
+      "price": 40,
+      "avg": "1.96",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "9fef"
+    },
+    {
+      "name": "Item5",
+      "StoreName": "Shop5",
+      "StoreId": 5,
+      "quantity": 5,
+      "price": 50,
+      "avg": "3.2",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "e1f4"
+    },
+    {
+      "name": "Item6",
+      "StoreName": "Shop5",
+      "StoreId": 5,
+      "quantity": 5,
+      "price": 60,
+      "avg": "4.9",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "99b3"
+    },
+    {
+      "name": "Item8",
+      "StoreName": "Shop5",
+      "StoreId": 5,
+      "quantity": 5,
+      "price": 80,
+      "avg": "2.25",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "2771"
+    },
+    {
+      "name": "Item9",
+      "StoreName": "Shop5",
+      "StoreId": 5,
+      "quantity": 100,
+      "price": 90,
+      "avg": "3.9",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "b736"
+    },
+    {
+      "name": "Item10",
+      "StoreName": "Shop5",
+      "StoreId": 5,
+      "quantity": 5,
+      "price": 100,
+      "avg": "4.2",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "6610"
+    },
+    {
+      "name": "Item11",
+      "StoreName": "Shop5",
+      "StoreId": 5,
+      "quantity": 5,
+      "price": 110,
+      "avg": "4.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "3434"
+    },
+    {
+      "name": "Item12",
+      "StoreName": "Shop6",
+      "StoreId": 6,
+      "quantity": 5,
+      "price": 120,
+      "avg": "3.9",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "2598"
+    },
+    {
+      "name": "Item13",
+      "StoreName": "Shop6",
+      "StoreId": 6,
+      "quantity": 5,
+      "price": 130,
+      "avg": "1.24",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "767f"
+    },
+    {
+      "name": "Item14",
+      "StoreName": "Shop7",
+      "StoreId": 7,
+      "quantity": 5,
+      "price": 140,
+      "avg": "2.2",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "ca09"
+    },
+    {
+      "name": "Item5",
+      "StoreName": "Shop7",
+      "StoreId": 7,
+      "quantity": 5,
+      "price": 150,
+      "avg": "3.8",
+      "photo_data": "https://via.placeholder.com/150",
+      "id": "2d27"
+    }
+  ]
+}
